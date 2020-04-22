@@ -1,6 +1,6 @@
 <template>
   <v-layout column justify-center align-center>
-    <v-col v-for="item in buttons" :key="item[0]">
+    <v-col v-for="item in buttons" :key="item">
       <v-btn>{{ item }}</v-btn>
     </v-col>
   </v-layout>
